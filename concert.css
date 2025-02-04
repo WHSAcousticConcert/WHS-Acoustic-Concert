@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*
+   WHS Acoustic Concert
+   Author: Hannah Allen
+   Date: 12/12/2024
+   
+   Filename: concert.css
+*/
+body {background-color: #DBAA7A;
+	 background-image: url(background.png);}
+	
+header {background-color: #C19770;
+		padding: 10px 5px 0px 5px;}
+		
+#people {padding-left: 10px;}
+
+#person {padding-right: 10px;}
+
+header, article, footer {text-align: center;}
+
+article {padding-bottom: 40px;}
+
+strong {font-size: 24px}
+
+table {column-gap: 15px;}
+
+#button {background-color: rgb(34 139 34);
+		 border-radius: 5px;}
+
+footer {color: #000000;
+		background-color: #C19770;}
+	
+#credit {font-size: 15px;
+		 font-style: italic;
+		 text-align: left;}
+		
+#wrapper {background-color: #F0BF8F; 
+			min-width: 90px;
+			max-width: 1280px;
+			box-shadow: drop-shadow;
+			margin-right: auto; 
+			margin-left: auto;
+			font-size: 20px;}
